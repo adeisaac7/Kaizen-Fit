@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: poppins, sans-serif;
+}
+
+span{
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.blueShadow{
+    box-shadow: 3px 3px 0 0 #60a5fa;
+}
+
+.blueShadow:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 0 #60a5fa;
+}
+
+.caretDown{
+    height: 22px;
+    width: 22px;
+    filter: invert(100%)
+    sepia(100%)
+    saturate(0%)
+    hue-rotate(280deg) 
+    brightness(103%) 
+    contrast(102%);
+}
